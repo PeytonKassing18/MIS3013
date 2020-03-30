@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsParticipation", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMethod", "SimpleMethod\SimpleMethod.csproj", "{2B0BDED6-41E7-4AEA-BBEE-F2A156080135}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2B0BDED6-41E7-4AEA-BBEE-F2A156080135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B0BDED6-41E7-4AEA-BBEE-F2A156080135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B0BDED6-41E7-4AEA-BBEE-F2A156080135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
