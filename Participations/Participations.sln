@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMethod", "SimpleMetho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle Circle", "Rectangle Circle\Rectangle Circle.csproj", "{5EE5B4EF-5BED-45E0-A2C5-DD468BEEB0EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB69A01-2225-4149-9FB0-C2EB2AE539FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE5B4EF-5BED-45E0-A2C5-DD468BEEB0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE5B4EF-5BED-45E0-A2C5-DD468BEEB0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE5B4EF-5BED-45E0-A2C5-DD468BEEB0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE5B4EF-5BED-45E0-A2C5-DD468BEEB0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
