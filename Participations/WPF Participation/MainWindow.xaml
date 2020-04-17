@@ -16,8 +16,8 @@
         <Label x:Name="WPF_Participation" Content="WPF Participation" HorizontalAlignment="Center" Margin="237,10,229,0" VerticalAlignment="Top" Height="85" Width="326" FontSize="40"/>
         <Label x:Name="lblFavColor" Content="Favorite Color:" HorizontalAlignment="Left" Height="46" Margin="32,186,0,0" VerticalAlignment="Top" Width="242" FontSize="25"/>
         <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Height="41" Margin="32,140,0,0" VerticalAlignment="Top" Width="242" FontSize="25"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="41" Margin="301,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="262" FontSize="20"/>
-        <TextBox x:Name="txtFav" HorizontalAlignment="Left" Height="46" Margin="301,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="262" FontSize="20"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="41" Margin="301,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="262" FontSize="21"/>
+        <TextBox x:Name="txtFav" HorizontalAlignment="Left" Height="46" Margin="301,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="262" FontSize="21"/>
         <Button x:Name="BtnProcess" Content="Process" HorizontalAlignment="Left" Height="68" Margin="330,309,0,0" VerticalAlignment="Top" Width="210" FontSize="25" Click="BtnProcess_Click" MouseEnter="BtnProcess_MouseEnter" IsDefault="True"/>
 
     </Grid>
