@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_Student.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Student"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0BC7BE" Offset="0"/>
+                <GradientStop Color="#FF9631CF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="lblStudentId" Content="Student ID:" HorizontalAlignment="Left" Height="48" Margin="54,92,0,0" VerticalAlignment="Top" Width="150" FontSize="24"/>
+        <Label x:Name="lblFirst" Content="First Name:" HorizontalAlignment="Left" Height="49" Margin="54,145,0,0" VerticalAlignment="Top" Width="150" FontSize="24"/>
+        <Label x:Name="lblLast" Content="Last Name:" HorizontalAlignment="Left" Height="49" Margin="54,199,0,0" VerticalAlignment="Top" Width="150" FontSize="24"/>
+        <TextBox x:Name="txtStudentId" HorizontalAlignment="Left" Height="36" Margin="231,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203" FontSize="22"/>
+        <TextBox x:Name="txtFirst" HorizontalAlignment="Left" Height="36" Margin="231,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203" FontSize="22"/>
+        <TextBox x:Name="txtLast" HorizontalAlignment="Left" Height="36" Margin="231,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203" FontSize="22"/>
+        <ListBox x:Name="lstStud" HorizontalAlignment="Left" Height="295" Margin="465,92,0,0" VerticalAlignment="Top" Width="317" FontSize="22"/>
+        <Label x:Name="lblStudentLabel" Content="Student" HorizontalAlignment="Left" Height="77" Margin="311,10,0,0" VerticalAlignment="Top" Width="189" FontSize="48"/>
+        <Label x:Name="lblFav" Content="Favorite Color:" HorizontalAlignment="Left" Height="49" Margin="54,253,0,0" VerticalAlignment="Top" Width="172" FontSize="24"/>
+        <TextBox x:Name="txtFav" HorizontalAlignment="Left" Height="36" Margin="231,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203" FontSize="22"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Height="51" Margin="134,336,0,0" VerticalAlignment="Top" Width="162" FontSize="22" Click="btnAdd_Click"/>
+
+    </Grid>
+</Window>
